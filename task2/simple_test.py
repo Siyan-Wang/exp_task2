@@ -12,6 +12,6 @@ def test_array():
     
 
 def test_input_size():
-    f=open("/Users/admin/desktop/applied machine learning/applied-ml-hw/task2/input.txt","rb")
+    f=open("task2/input.txt","rb")
     char=f.readline().strip().decode("utf-8")
     assert len(char)==6
